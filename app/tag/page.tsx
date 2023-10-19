@@ -1,3 +1,4 @@
+'use client'
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Image from 'next/image'
@@ -10,12 +11,12 @@ const page = () => {
         <h1 className='text-3xl font-bold'>img tag</h1>
         <div className='flex my-4'>
           <span className='mr-2'> Elements </span>
-          <img src="images/tag/img-tag.png" alt="sample" />
+          <img src="images/img-tag.png" alt="sample" />
         </div>
       </div>
       <div className='border border-solid'>
         <img 
-          src="images/tag/sample.png"
+          src="images/sample.png"
           alt="sample" 
           width={`574px`}
           height={`430px`}
@@ -28,12 +29,12 @@ const page = () => {
         <h1 className='text-3xl font-bold'>next/image</h1>
         <div className='flex my-4'>
           <span className='mr-2'> Elements </span>
-          <img src="images/tag/next-image.png" alt="sample" />
+          <img src="images/next-image.png" alt="sample" />
         </div>
       </div>
       <div className='border border-solid'>
         <Image
-            src="/images/tag/sample.png"
+            src="/images/sample.png"
             alt="sample"
             width={574}
             height={430}

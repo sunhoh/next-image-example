@@ -4,7 +4,7 @@ const nextConfig = {
         return [
           {
             source: '/',
-            destination: '/img-vs-next-image',
+            destination: '/tag',
             permanent: true,
           },
         ];

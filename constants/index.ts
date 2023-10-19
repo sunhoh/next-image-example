@@ -1,7 +1,6 @@
 export const PATH = {
-    IMG_VS_NEXT_IMAGE: '/img-vs-next-image',
+    IMG_VS_NEXT_IMAGE: '/tag',
     NEXT_IMAGE_PROPS: '/next-image-props',
-    IMAGE_TYPES: '/image-types',
   } as const;
   
   interface Page {
@@ -11,15 +10,11 @@ export const PATH = {
   export const PAGES: Page[] = [
     {
       href: PATH.IMG_VS_NEXT_IMAGE,
-      title: 'img vs next/image',
+      title: 'Tag',
     },
     {
       href: PATH.NEXT_IMAGE_PROPS,
-      title: 'next image props',
+      title: 'next/image props',
     },
-    {
-      href: PATH.IMAGE_TYPES,
-      title: 'image types',
-    }    
   ];
   
